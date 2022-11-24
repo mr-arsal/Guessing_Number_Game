@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Guessing_Number_Game/static/css/main.694ab911.css",
-    "main.js": "/Guessing_Number_Game/static/js/main.cc93685b.js",
+    "main.js": "/Guessing_Number_Game/static/js/main.3c82738b.js",
     "static/js/787.b5062e7f.chunk.js": "/Guessing_Number_Game/static/js/787.b5062e7f.chunk.js",
     "index.html": "/Guessing_Number_Game/index.html",
     "main.694ab911.css.map": "/Guessing_Number_Game/static/css/main.694ab911.css.map",
-    "main.cc93685b.js.map": "/Guessing_Number_Game/static/js/main.cc93685b.js.map",
+    "main.3c82738b.js.map": "/Guessing_Number_Game/static/js/main.3c82738b.js.map",
     "787.b5062e7f.chunk.js.map": "/Guessing_Number_Game/static/js/787.b5062e7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.694ab911.css",
-    "static/js/main.cc93685b.js"
+    "static/js/main.3c82738b.js"
   ]
 }
