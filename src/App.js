@@ -5,12 +5,11 @@ function App() {
 
   const game = () => {
     let random = Math.floor(Math.random() * 101);
-    console.log(random)
     let input;
     let attempts = 10;
     do {
       input = prompt(`Guess any number between 0 and 100.
-      ${attempts} attempts have left.`
+         ${attempts} attempts have left.`
       );
       input = Number.parseInt(input);
       attempts = attempts - 1;
@@ -21,8 +20,9 @@ function App() {
       } else if (attempts === 0 && input !== random) {
         alert('Try Again❗')
       } else if (input === random) {
-        alert(`Congartulations🎉 You won the game in ${10 - attempts} attempts. 
-        ${input} is the correct number.`)
+        alert(`Congratulations🎉 ${input} is the correct number.
+      You won the game in ${10 - attempts} attempts. 
+        `)
       }
     } while (input !== random && attempts !== 0)
   }
